@@ -1,0 +1,19 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DeuMiAn/typechain",
+  "author": "DeuMiAN <gu04005@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "typescript": "^4.6.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "tsc-watch": "^4.6.2"
+  }
+}
